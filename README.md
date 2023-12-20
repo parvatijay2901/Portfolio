@@ -47,5 +47,8 @@ Open the project folder and Navigate to `/src/components/`. <br/>
 You will find all the components used and you can edit your information accordingly.
 
 ### Show your support
-
 Give a ⭐ if you like this website!
+
+### Changes to make:
+- About section: Add education, experience, skills + additional details
+- Add "Get in Touch with Me" section
