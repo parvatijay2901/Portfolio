@@ -1,5 +1,4 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
   <a href="https://portfolio-parvati.vercel.app/" target="_blank">parvati-portfolio</a>
 </h2>
 <div align="center">
