@@ -52,4 +52,8 @@ Give a ⭐ if you like this website!
 ### Changes to make:
 - About section: Add education, experience, skills + additional details
 - Add "Get in Touch with Me" section
+
+### Changes to make:
+- About section: Add education, experience, skills + additional details
+- Add "Get in Touch with Me" section
 - Check what is wrong with the icon
