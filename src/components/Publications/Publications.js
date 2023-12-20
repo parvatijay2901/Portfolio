@@ -1,10 +1,10 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { BsGithub } from "react-icons/bs";
+import { AiFillGoogleCircle } from "react-icons/ai";
 
-function Projects(props) {
-  const githubLink = "https://github.com/parvatijay2901?tab=repositories";
+function GoogleScholar(props) {
+  const GoogleScholarProfileLink = "https://scholar.google.com/citations?user=VwpVI44AAAAJ&hl=en";
 
   const customStyle = {
     marginTop: "300px",
@@ -21,15 +21,15 @@ function Projects(props) {
 
         <Button 
           variant="primary" 
-          href={githubLink} 
+          href={GoogleScholarProfileLink} 
           target="_blank" 
           style={customStyle}
         >
-          <BsGithub /> &nbsp; View on my GitHub
+          <AiFillGoogleCircle /> &nbsp; View on my Google Scholar profile
         </Button>
       </Card.Body>
     </Card>
   );
 }
 
-export default Projects;
+export default GoogleScholar;

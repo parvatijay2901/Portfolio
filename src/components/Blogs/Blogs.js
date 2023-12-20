@@ -1,11 +1,10 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { BsGithub } from "react-icons/bs";
+import { BsMedium } from "react-icons/bs";
 
 function Projects(props) {
-  const githubLink = "https://github.com/parvatijay2901?tab=repositories";
-
+  const mediumLink = "https://parvatijay2901.medium.com/";
   const customStyle = {
     marginTop: "300px",
     marginBottom: "300px",
@@ -18,14 +17,14 @@ function Projects(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-
+        
         <Button 
           variant="primary" 
-          href={githubLink} 
+          href={mediumLink} 
           target="_blank" 
           style={customStyle}
         >
-          <BsGithub /> &nbsp; View on my GitHub
+          <BsMedium /> &nbsp; Read on my Medium
         </Button>
       </Card.Body>
     </Card>
